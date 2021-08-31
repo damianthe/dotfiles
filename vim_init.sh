@@ -1,0 +1,1 @@
+nvim +'PluginInstall' +'UpdateRemotePlugins' +qa
