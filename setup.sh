@@ -9,6 +9,7 @@ cp ~/dotfiles/vim-configuration/init.vim ~/.config/nvim/init.vim
 
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
-cp ~/dotfiles/vim_init.sh  ~/.vim_init.sh # this script has to be manually run by the user.
+#cp ~/dotfiles/vim_init.sh  ~/.vim_init.sh # this script has to be manually run by the user.
+nvim --headless +'PluginInstall' +'UpdateRemotePlugins' +qa
 
 sudo apt-get install -y silversearcher-ag
